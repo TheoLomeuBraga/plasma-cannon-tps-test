@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dwk1drjwqdkvd"]
+
+[ext_resource type="PackedScene" uid="uid://dd80wi6152id" path="res://player/player_model/player_model.glb" id="1_15fux"]
+[ext_resource type="Texture2D" uid="uid://dhmtxj36ssgup" path="res://player/player_model/player_model_player.png" id="2_qfpg1"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_r5r3n"]
+resource_name = "player"
+cull_mode = 2
+diffuse_mode = 3
+specular_mode = 2
+vertex_color_use_as_albedo = true
+albedo_texture = ExtResource("2_qfpg1")
+roughness = 0.0
+texture_filter = 2
+
+[node name="player_model" unique_id=1344709234 instance=ExtResource("1_15fux")]
+
+[node name="spine_006" parent="metarig/GeneralSkeleton" parent_id_path=PackedInt32Array(368109592) index="0" unique_id=2050994417]
+transform = Transform3D(1, 1.0824675e-14, 2.3841842e-07, -2.5035526e-14, 0.9999998, 5.960465e-08, -2.3841844e-07, -5.9604645e-08, 0.99999994, 1.4659281e-13, 2.1765192, 0.029639967)
+
+[node name="hand_R" parent="metarig/GeneralSkeleton" parent_id_path=PackedInt32Array(368109592) index="1" unique_id=759925380]
+transform = Transform3D(0, -1, 0, 0, 0, -1, 1, 0, 0, -0.8837669, 1.8905543, -0.059040036)
+
+[node name="Cube_005" parent="." index="1" unique_id=2070832978]
+surface_material_override/0 = SubResource("StandardMaterial3D_r5r3n")
+
+[node name="Cube_006" parent="." index="2" unique_id=233051457]
+surface_material_override/0 = SubResource("StandardMaterial3D_r5r3n")

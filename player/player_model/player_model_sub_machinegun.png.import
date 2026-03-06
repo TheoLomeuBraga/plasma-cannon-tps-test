@@ -2,23 +2,24 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dhmtxj36ssgup"
-path="res://.godot/imported/player_model_player.png-392eb413ccb7217edd5ba981bb158ae1.ctex"
+uid="uid://cs7bk3bffp2wv"
+path.s3tc="res://.godot/imported/player_model_sub_machinegun.png-01cc6e78c92801e9ffd9b936e7a5774d.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 generator_parameters={
-"md5": "7237c059dd8202e10f863bc41d4d728e"
+"md5": "9864cbced2da87021e1d50d0c987feaa"
 }
 
 [deps]
 
-source_file="res://player/player_model/player_model_player.png"
-dest_files=["res://.godot/imported/player_model_player.png-392eb413ccb7217edd5ba981bb158ae1.ctex"]
+source_file="res://player/player_model/player_model_sub_machinegun.png"
+dest_files=["res://.godot/imported/player_model_sub_machinegun.png-01cc6e78c92801e9ffd9b936e7a5774d.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
