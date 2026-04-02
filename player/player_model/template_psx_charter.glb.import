@@ -1,15 +1,15 @@
 [remap]
 
-importer="scene"
+importer="animation_library"
 importer_version=1
-type="PackedScene"
+type="AnimationLibrary"
 uid="uid://dpqcjnuxuklbe"
-path="res://.godot/imported/template_psx_charter.glb-34ab3bf7cb22395159bc00f7ec81ea2b.scn"
+path="res://.godot/imported/template_psx_charter.glb-34ab3bf7cb22395159bc00f7ec81ea2b.res"
 
 [deps]
 
 source_file="res://player/player_model/template_psx_charter.glb"
-dest_files=["res://.godot/imported/template_psx_charter.glb-34ab3bf7cb22395159bc00f7ec81ea2b.scn"]
+dest_files=["res://.godot/imported/template_psx_charter.glb-34ab3bf7cb22395159bc00f7ec81ea2b.res"]
 
 [params]
 
