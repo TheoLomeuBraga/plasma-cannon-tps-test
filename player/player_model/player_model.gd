@@ -13,16 +13,19 @@ extends Node3D
 @onready var animation_tree : AnimationTree = $AnimationTree
 
 @onready var arm_r_ik : Array[SkeletonModifier3D] = [
-	$metarig/GeneralSkeleton/TwoBoneIK3D_hand,
-	$metarig/GeneralSkeleton/CopyTransformModifier3D_hand,
+	$metarig/GeneralSkeleton/TwoBoneIK3D_hand_r,
+	$metarig/GeneralSkeleton/CopyTransformModifier3D_hand_r
 	]
 
 var gun_estate_tween : Tween
 var gun_estate : float :
 	set(value):
 		gun_estate = value
+		
 		for ik : SkeletonModifier3D in arm_r_ik:
-			ik.influence = value
+			if ik != null:
+				ik.influence = value
+				print("ok\n")
 
 enum Estate {RUN,AIR,RUN_GUN,AIR_GUN}
 @export var estate : Estate = Estate.RUN :
